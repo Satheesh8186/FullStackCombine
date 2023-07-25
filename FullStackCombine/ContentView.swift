@@ -9,6 +9,7 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @StateObject private var vm = SignupVM()
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(

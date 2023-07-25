@@ -13,7 +13,7 @@ struct FullStackCombineApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignupView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

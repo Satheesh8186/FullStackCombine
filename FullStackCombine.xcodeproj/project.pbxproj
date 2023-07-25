@@ -16,6 +16,10 @@
 		8089C06F2A7025B800FA47AA /* FullStackCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C06E2A7025B800FA47AA /* FullStackCombineTests.swift */; };
 		8089C0792A7025B800FA47AA /* FullStackCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0782A7025B800FA47AA /* FullStackCombineUITests.swift */; };
 		8089C07B2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */; };
+		8089C08C2A703F4800FA47AA /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C08B2A703F4800FA47AA /* SignupModel.swift */; };
+		8089C08F2A70508600FA47AA /* ApiCallManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C08E2A70508600FA47AA /* ApiCallManger.swift */; };
+		8089C0912A706E4900FA47AA /* SignupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0902A706E4900FA47AA /* SignupVM.swift */; };
+		8089C0952A707C1500FA47AA /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0942A707C1500FA47AA /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		8089C0742A7025B800FA47AA /* FullStackCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullStackCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8089C0782A7025B800FA47AA /* FullStackCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineUITests.swift; sourceTree = "<group>"; };
 		8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8089C08B2A703F4800FA47AA /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		8089C08E2A70508600FA47AA /* ApiCallManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallManger.swift; sourceTree = "<group>"; };
+		8089C0902A706E4900FA47AA /* SignupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVM.swift; sourceTree = "<group>"; };
+		8089C0942A707C1500FA47AA /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,9 @@
 		8089C0572A7025B700FA47AA /* FullStackCombine */ = {
 			isa = PBXGroup;
 			children = (
+				8089C08D2A70504C00FA47AA /* Helper */,
 				8089C0582A7025B700FA47AA /* FullStackCombineApp.swift */,
+				8089C0872A703E6C00FA47AA /* OnBoarding */,
 				8089C05A2A7025B700FA47AA /* ContentView.swift */,
 				8089C05C2A7025B800FA47AA /* Assets.xcassets */,
 				8089C0612A7025B800FA47AA /* Persistence.swift */,
@@ -131,6 +141,48 @@
 				8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */,
 			);
 			path = FullStackCombineUITests;
+			sourceTree = "<group>";
+		};
+		8089C0872A703E6C00FA47AA /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				8089C08A2A703EE800FA47AA /* view */,
+				8089C0892A703EB900FA47AA /* ViewModel */,
+				8089C0882A703EA500FA47AA /* Model */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		8089C0882A703EA500FA47AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8089C08B2A703F4800FA47AA /* SignupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8089C0892A703EB900FA47AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8089C0902A706E4900FA47AA /* SignupVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8089C08A2A703EE800FA47AA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8089C0942A707C1500FA47AA /* SignupView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8089C08D2A70504C00FA47AA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8089C08E2A70508600FA47AA /* ApiCallManger.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8089C0912A706E4900FA47AA /* SignupVM.swift in Sources */,
+				8089C08F2A70508600FA47AA /* ApiCallManger.swift in Sources */,
 				8089C0622A7025B800FA47AA /* Persistence.swift in Sources */,
+				8089C08C2A703F4800FA47AA /* SignupModel.swift in Sources */,
+				8089C0952A707C1500FA47AA /* SignupView.swift in Sources */,
 				8089C05B2A7025B700FA47AA /* ContentView.swift in Sources */,
 				8089C0592A7025B700FA47AA /* FullStackCombineApp.swift in Sources */,
 				8089C0652A7025B800FA47AA /* FullStackCombine.xcdatamodeld in Sources */,
