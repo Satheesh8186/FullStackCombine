@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8089C0592A7025B700FA47AA /* FullStackCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0582A7025B700FA47AA /* FullStackCombineApp.swift */; };
+		8089C05B2A7025B700FA47AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C05A2A7025B700FA47AA /* ContentView.swift */; };
+		8089C05D2A7025B800FA47AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8089C05C2A7025B800FA47AA /* Assets.xcassets */; };
+		8089C0602A7025B800FA47AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8089C05F2A7025B800FA47AA /* Preview Assets.xcassets */; };
+		8089C0622A7025B800FA47AA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0612A7025B800FA47AA /* Persistence.swift */; };
+		8089C0652A7025B800FA47AA /* FullStackCombine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0632A7025B800FA47AA /* FullStackCombine.xcdatamodeld */; };
+		8089C06F2A7025B800FA47AA /* FullStackCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C06E2A7025B800FA47AA /* FullStackCombineTests.swift */; };
+		8089C0792A7025B800FA47AA /* FullStackCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0782A7025B800FA47AA /* FullStackCombineUITests.swift */; };
+		8089C07B2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8089C06B2A7025B800FA47AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8089C04D2A7025B700FA47AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8089C0542A7025B700FA47AA;
+			remoteInfo = FullStackCombine;
+		};
+		8089C0752A7025B800FA47AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8089C04D2A7025B700FA47AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8089C0542A7025B700FA47AA;
+			remoteInfo = FullStackCombine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8089C0552A7025B700FA47AA /* FullStackCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullStackCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8089C0582A7025B700FA47AA /* FullStackCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineApp.swift; sourceTree = "<group>"; };
+		8089C05A2A7025B700FA47AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8089C05C2A7025B800FA47AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8089C05F2A7025B800FA47AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8089C0612A7025B800FA47AA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8089C0642A7025B800FA47AA /* FullStackCombine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FullStackCombine.xcdatamodel; sourceTree = "<group>"; };
+		8089C06A2A7025B800FA47AA /* FullStackCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullStackCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8089C06E2A7025B800FA47AA /* FullStackCombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineTests.swift; sourceTree = "<group>"; };
+		8089C0742A7025B800FA47AA /* FullStackCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullStackCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8089C0782A7025B800FA47AA /* FullStackCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineUITests.swift; sourceTree = "<group>"; };
+		8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8089C0522A7025B700FA47AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C0672A7025B800FA47AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C0712A7025B800FA47AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8089C04C2A7025B700FA47AA = {
+			isa = PBXGroup;
+			children = (
+				8089C0572A7025B700FA47AA /* FullStackCombine */,
+				8089C06D2A7025B800FA47AA /* FullStackCombineTests */,
+				8089C0772A7025B800FA47AA /* FullStackCombineUITests */,
+				8089C0562A7025B700FA47AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8089C0562A7025B700FA47AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8089C0552A7025B700FA47AA /* FullStackCombine.app */,
+				8089C06A2A7025B800FA47AA /* FullStackCombineTests.xctest */,
+				8089C0742A7025B800FA47AA /* FullStackCombineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8089C0572A7025B700FA47AA /* FullStackCombine */ = {
+			isa = PBXGroup;
+			children = (
+				8089C0582A7025B700FA47AA /* FullStackCombineApp.swift */,
+				8089C05A2A7025B700FA47AA /* ContentView.swift */,
+				8089C05C2A7025B800FA47AA /* Assets.xcassets */,
+				8089C0612A7025B800FA47AA /* Persistence.swift */,
+				8089C0632A7025B800FA47AA /* FullStackCombine.xcdatamodeld */,
+				8089C05E2A7025B800FA47AA /* Preview Content */,
+			);
+			path = FullStackCombine;
+			sourceTree = "<group>";
+		};
+		8089C05E2A7025B800FA47AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8089C05F2A7025B800FA47AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8089C06D2A7025B800FA47AA /* FullStackCombineTests */ = {
+			isa = PBXGroup;
+			children = (
+				8089C06E2A7025B800FA47AA /* FullStackCombineTests.swift */,
+			);
+			path = FullStackCombineTests;
+			sourceTree = "<group>";
+		};
+		8089C0772A7025B800FA47AA /* FullStackCombineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8089C0782A7025B800FA47AA /* FullStackCombineUITests.swift */,
+				8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */,
+			);
+			path = FullStackCombineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8089C0542A7025B700FA47AA /* FullStackCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8089C07E2A7025B800FA47AA /* Build configuration list for PBXNativeTarget "FullStackCombine" */;
+			buildPhases = (
+				8089C0512A7025B700FA47AA /* Sources */,
+				8089C0522A7025B700FA47AA /* Frameworks */,
+				8089C0532A7025B700FA47AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullStackCombine;
+			productName = FullStackCombine;
+			productReference = 8089C0552A7025B700FA47AA /* FullStackCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8089C0692A7025B800FA47AA /* FullStackCombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8089C0812A7025B800FA47AA /* Build configuration list for PBXNativeTarget "FullStackCombineTests" */;
+			buildPhases = (
+				8089C0662A7025B800FA47AA /* Sources */,
+				8089C0672A7025B800FA47AA /* Frameworks */,
+				8089C0682A7025B800FA47AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8089C06C2A7025B800FA47AA /* PBXTargetDependency */,
+			);
+			name = FullStackCombineTests;
+			productName = FullStackCombineTests;
+			productReference = 8089C06A2A7025B800FA47AA /* FullStackCombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8089C0732A7025B800FA47AA /* FullStackCombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8089C0842A7025B800FA47AA /* Build configuration list for PBXNativeTarget "FullStackCombineUITests" */;
+			buildPhases = (
+				8089C0702A7025B800FA47AA /* Sources */,
+				8089C0712A7025B800FA47AA /* Frameworks */,
+				8089C0722A7025B800FA47AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8089C0762A7025B800FA47AA /* PBXTargetDependency */,
+			);
+			name = FullStackCombineUITests;
+			productName = FullStackCombineUITests;
+			productReference = 8089C0742A7025B800FA47AA /* FullStackCombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8089C04D2A7025B700FA47AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8089C0542A7025B700FA47AA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8089C0692A7025B800FA47AA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8089C0542A7025B700FA47AA;
+					};
+					8089C0732A7025B800FA47AA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8089C0542A7025B700FA47AA;
+					};
+				};
+			};
+			buildConfigurationList = 8089C0502A7025B700FA47AA /* Build configuration list for PBXProject "FullStackCombine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8089C04C2A7025B700FA47AA;
+			productRefGroup = 8089C0562A7025B700FA47AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8089C0542A7025B700FA47AA /* FullStackCombine */,
+				8089C0692A7025B800FA47AA /* FullStackCombineTests */,
+				8089C0732A7025B800FA47AA /* FullStackCombineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8089C0532A7025B700FA47AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8089C0602A7025B800FA47AA /* Preview Assets.xcassets in Resources */,
+				8089C05D2A7025B800FA47AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C0682A7025B800FA47AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C0722A7025B800FA47AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8089C0512A7025B700FA47AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8089C0622A7025B800FA47AA /* Persistence.swift in Sources */,
+				8089C05B2A7025B700FA47AA /* ContentView.swift in Sources */,
+				8089C0592A7025B700FA47AA /* FullStackCombineApp.swift in Sources */,
+				8089C0652A7025B800FA47AA /* FullStackCombine.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C0662A7025B800FA47AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8089C06F2A7025B800FA47AA /* FullStackCombineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8089C0702A7025B800FA47AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8089C07B2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift in Sources */,
+				8089C0792A7025B800FA47AA /* FullStackCombineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8089C06C2A7025B800FA47AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8089C0542A7025B700FA47AA /* FullStackCombine */;
+			targetProxy = 8089C06B2A7025B800FA47AA /* PBXContainerItemProxy */;
+		};
+		8089C0762A7025B800FA47AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8089C0542A7025B700FA47AA /* FullStackCombine */;
+			targetProxy = 8089C0752A7025B800FA47AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8089C07C2A7025B800FA47AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8089C07D2A7025B800FA47AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8089C07F2A7025B800FA47AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FullStackCombine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satheesh.FullStackCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8089C0802A7025B800FA47AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FullStackCombine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satheesh.FullStackCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8089C0822A7025B800FA47AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satheesh.FullStackCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullStackCombine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FullStackCombine";
+			};
+			name = Debug;
+		};
+		8089C0832A7025B800FA47AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satheesh.FullStackCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullStackCombine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FullStackCombine";
+			};
+			name = Release;
+		};
+		8089C0852A7025B800FA47AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satheesh.FullStackCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FullStackCombine;
+			};
+			name = Debug;
+		};
+		8089C0862A7025B800FA47AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satheesh.FullStackCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FullStackCombine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8089C0502A7025B700FA47AA /* Build configuration list for PBXProject "FullStackCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8089C07C2A7025B800FA47AA /* Debug */,
+				8089C07D2A7025B800FA47AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8089C07E2A7025B800FA47AA /* Build configuration list for PBXNativeTarget "FullStackCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8089C07F2A7025B800FA47AA /* Debug */,
+				8089C0802A7025B800FA47AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8089C0812A7025B800FA47AA /* Build configuration list for PBXNativeTarget "FullStackCombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8089C0822A7025B800FA47AA /* Debug */,
+				8089C0832A7025B800FA47AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8089C0842A7025B800FA47AA /* Build configuration list for PBXNativeTarget "FullStackCombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8089C0852A7025B800FA47AA /* Debug */,
+				8089C0862A7025B800FA47AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8089C0632A7025B800FA47AA /* FullStackCombine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8089C0642A7025B800FA47AA /* FullStackCombine.xcdatamodel */,
+			);
+			currentVersion = 8089C0642A7025B800FA47AA /* FullStackCombine.xcdatamodel */;
+			path = FullStackCombine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8089C04D2A7025B700FA47AA /* Project object */;
+}
