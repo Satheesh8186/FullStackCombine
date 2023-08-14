@@ -17,7 +17,7 @@
 		8089C0792A7025B800FA47AA /* FullStackCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0782A7025B800FA47AA /* FullStackCombineUITests.swift */; };
 		8089C07B2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */; };
 		8089C08C2A703F4800FA47AA /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C08B2A703F4800FA47AA /* SignupModel.swift */; };
-		8089C08F2A70508600FA47AA /* ApiCallManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C08E2A70508600FA47AA /* ApiCallManger.swift */; };
+		8089C08F2A70508600FA47AA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C08E2A70508600FA47AA /* APIService.swift */; };
 		8089C0912A706E4900FA47AA /* SignupVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0902A706E4900FA47AA /* SignupVM.swift */; };
 		8089C0952A707C1500FA47AA /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8089C0942A707C1500FA47AA /* SignupView.swift */; };
 /* End PBXBuildFile section */
@@ -53,7 +53,7 @@
 		8089C0782A7025B800FA47AA /* FullStackCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineUITests.swift; sourceTree = "<group>"; };
 		8089C07A2A7025B800FA47AA /* FullStackCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullStackCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8089C08B2A703F4800FA47AA /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
-		8089C08E2A70508600FA47AA /* ApiCallManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallManger.swift; sourceTree = "<group>"; };
+		8089C08E2A70508600FA47AA /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		8089C0902A706E4900FA47AA /* SignupVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVM.swift; sourceTree = "<group>"; };
 		8089C0942A707C1500FA47AA /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,7 +180,7 @@
 		8089C08D2A70504C00FA47AA /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				8089C08E2A70508600FA47AA /* ApiCallManger.swift */,
+				8089C08E2A70508600FA47AA /* APIService.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8089C0912A706E4900FA47AA /* SignupVM.swift in Sources */,
-				8089C08F2A70508600FA47AA /* ApiCallManger.swift in Sources */,
+				8089C08F2A70508600FA47AA /* APIService.swift in Sources */,
 				8089C0622A7025B800FA47AA /* Persistence.swift in Sources */,
 				8089C08C2A703F4800FA47AA /* SignupModel.swift in Sources */,
 				8089C0952A707C1500FA47AA /* SignupView.swift in Sources */,
